@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #3c2a2a;
+    background-color: #f4e9e9;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background-color: #f4e9e9;
+    
+}
+
+.header .logo {
+    font-size: 1.5;
+    color: #b7797f;
+}
+
+.nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #3c2a2a;
+    font-weight: bold;
+}
+
+.main-content {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.title {
+    font-size: 2.5em;
+    letter-spacing: 0.2em;
+    color: #b7797f;
+}
+
+.subtitle {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #3c2a2a;
+}
+
+.launch-info {
+    margin-top: 20px;
+}
+
+.launch-info h3 {
+    font-size: 1.5;
+    color: #b7797f;
+}
+
+.launch-info span {
+    color: #d86b7b;
+}
+
+.date {
+    font-size: 1.2em;
+    color: #b7797f;
+    margin-top: 5px;
+}
+
+.club-button {
+    background-color: #d86b7b;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    
+}
+
+.product-display {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.perfume-image {
+    width: 200px;
+    height: auto;
+}
+
+.description {
+    margin-top: 15px;
+    max-width: 300px;
+    font-size: 1em;
+    color: #3c2a2a;
+}
+
+.buy-button {
+    background-color: #b7797f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}

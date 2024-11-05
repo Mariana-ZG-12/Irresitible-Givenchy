@@ -1,0 +1,119 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400.700;1,400.700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@media(min-width: 1200px)
+{
+.titulo{
+    font-family: "Lora";
+    font-size: 40px;
+    text-align: center;
+    border-bottom: #3a1b0f solid;
+}
+.sub{
+    font-family: "Lora";
+    font-size: 30px;
+    text-align: center;
+    color: #9f6248;
+    border-bottom: #3a1b0f solid;
+}
+nav{
+    -moz-column-count: 3;
+-moz-column-gap: 10px;
+-webkit-column-count: 3;
+-webkit-column-gap: 10px;
+column-count: 3;
+column-gap: 10px;
+}
+nav article h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 30px;
+    text-align: center;
+}
+nav article p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+text-align: center;
+}
+.espacio2{
+    -moz-column-count: 2;
+-moz-column-gap: undefinedpx;
+-webkit-column-count: 2;
+-webkit-column-gap: undefinedpx;
+column-count: 2;
+column-gap: undefinedpx;
+padding-top: 30px;
+}
+.sub1{
+    text-align: center;
+    font-size: 20px;
+    font-family: "Lora";
+    padding-top: 30px;
+}
+.sub2{
+    text-align: center;
+    font-size: 40px;
+    font-family: "Lora";
+}
+.sub3{
+    text-align: center;
+    font-size: 30px;
+    font-family: "Lora";
+    padding-right: 30px;
+}
+.parrafo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+text-align: center;
+}
+section article button{
+    padding-top: 30px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: #bd9993;
+}
+
+    footer{
+        background-color: #f9dede;
+    -moz-column-count: 3;
+-moz-column-gap: 10px;
+-webkit-column-count: 3;
+-webkit-column-gap: 10px;
+column-count: 3;
+column-gap: 10px;
+}
+footer section{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    align-content: space-around; 
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+footer ul{
+
+        text-decoration: none;
+        width: 250px;
+        display: inline-block;
+        vertical-align: top;
+        text-decoration: none;
+        text-align: left;
+        flex: 1; 
+        margin: 10px; 
+        position: relative
+    
+}
+footer img {
+    width: 30%;
+    align-items: end;
+}
+}
